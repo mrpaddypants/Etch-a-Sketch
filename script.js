@@ -8,7 +8,6 @@ btn.addEventListener("click", () => {
         alert("Chosen ammount is too big. Your browser cannot handle the truth!!");
         location.reload();
     }
-    
 });
 
 function createSquares(numOfSquares) {
@@ -16,10 +15,7 @@ function createSquares(numOfSquares) {
 
     for (i = 0; i < numOfSquares; i++) {
         const newSquare = document.createElement("div");
-        newSquare.style.cssText = "height: 60px; width: 60px;";
         newSquare.classList.add("squares");
         container.appendChild(newSquare);
     }
 }
-
-//createSquares(256);

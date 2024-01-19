@@ -18,12 +18,14 @@ body {
 #button {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    height: 40px;
+    height: 80px;
+    width: 250px;
     padding: 10px 20px;
     background-color: blue;
     border-radius: 5px;
     border: none;
     color: whitesmoke;
+    font-size: 20px;
     font-weight: 700;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -32,14 +34,14 @@ body {
 #boxGrid {
     display: flex;
     flex-wrap: wrap;
-    width: auto;
-    height: auto;
+    width: 960px;
+    height: 960px;
 }
 
 .squares {
+    border: black solid 0.5px;
     height: 60px;
     width: 60px;
-    border: black solid 1px;
 }
 
 .squares:hover {
