@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Lemon&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lemon', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,37 +13,62 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: rgb(95, 109, 162);
 }
 
-#button {
+h1 {
+    font-size: 56px;
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+#clear-button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 60px;
+    width: 120px;
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+#grid-button {
     margin-top: 2rem;
     margin-bottom: 2rem;
     height: 80px;
     width: 250px;
     padding: 10px 20px;
-    background-color: blue;
+    background-color: whitesmoke;
     border-radius: 5px;
     border: none;
-    color: whitesmoke;
+    color: black;
     font-size: 20px;
-    font-weight: 700;
-    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
+
 
 #boxGrid {
     display: flex;
     flex-wrap: wrap;
-    width: 960px;
-    height: 960px;
+    width: 800px;
+    height: 800px;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
-.squares {
-    border: black solid 0.5px;
-    height: 60px;
-    width: 60px;
-}
-
-.squares:hover {
-    background-color: aqua;
-}
